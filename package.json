@@ -1,14 +1,22 @@
 {
-  "name": "nodejs",
+  "name": "100daysofwebdev",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository will track my 100 days of learning web development.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon Day4/index.mjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yubraj-Bhandari/100DaysOfWebDev.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type":"module"
+  "bugs": {
+    "url": "https://github.com/Yubraj-Bhandari/100DaysOfWebDev/issues"
+  },
+  "homepage": "https://github.com/Yubraj-Bhandari/100DaysOfWebDev#readme"
 }
